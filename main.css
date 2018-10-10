@@ -1,0 +1,226 @@
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+
+  * {
+    font-family: Verdana;
+  }
+
+  /* NAVIGATION */
+  .top-nav ul{
+    padding: 20px;
+    list-style-type: none;
+    color: #FFF;
+    width: 100%;
+    text-align: center; 
+    background-color: black;
+  }
+
+  .top-nav li { 
+    display: inline; 
+  }
+
+  .top-nav li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+    padding: 3em;
+  }
+
+  .top-nav li a:hover{
+    text-shadow: 2px 1px 6px white;
+  }
+
+  .banner {
+    max-width: 100%;
+    height: auto;
+    padding: 0;
+  }
+
+.main {
+  position: relative;
+  text-align: center;
+  color: white;
+  padding-bottom: 15px;
+}
+
+h1 {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  color: white;
+  font-size: 60px;
+}
+
+h2 {
+  position: absolute;
+  top: 140px;
+  left: 50px;
+  color: white;
+  font-size: 40px;
+}
+
+h3 {
+  position: absolute;
+  top: 240px;
+  left: 50px;
+  color: white;
+  font-size: 15px;
+}
+
+.web-designs {
+  position: absolute;
+  top: 380px;
+  left: 50px;
+  color: white;
+  font-size: 15px;
+}
+
+.photography {
+  position: absolute;
+  top: 480px;
+  left: 50px;
+  color: white;
+  font-size: 15px;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+}
+
+button:active {
+  text-shadow: 1px 2px 5px black;
+}
+
+.title {
+  float: left;
+  font-size: 30px;
+}
+
+button {
+  float: left;
+  width: 32%;
+  background-color: black;
+  color: white;
+}
+
+button:hover {
+  box-shadow: 3px 1px 10px black;
+  border: none;
+}
+
+button:active {
+  background-color: white;
+  color: black;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.parent {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  letter-spacing: 2px;
+}
+
+.child {
+  margin: 0 0 1rem 0;
+}
+
+.child:last-child {
+  margin: 0;
+}
+
+form {
+  margin: 3rem 2rem 2rem 2rem;
+  max-width: 50rem;
+}
+
+fieldset {
+  border: 1px solid #DDD;
+  padding: 2rem;
+  border-radius: 3px;
+}
+
+legend {
+  padding: 1rem 1.5rem;
+  letter-spacing: 3px;
+}
+
+label {
+  display: block;
+  margin: 0 0 0.5rem 0;
+}
+
+input, textarea {
+  font-size: 1rem;
+  color: GREY;
+  
+  border: 1px solid WHITE;
+  padding: 0.5rem 1rem;
+  width: 100%;
+  letter-spacing: 2px;
+  resize: none;
+}
+
+#submit-btn {
+  background-color:WHITE;
+  color: BLACK;
+  font-weight: bold;
+}
+
+.social img {
+  width: 40px;
+  height: auto;
+  margin: 10px;
+}
+
+.footer-nav ul{
+  padding: 20px;
+  list-style-type: none;
+  color: #FFF;
+  width: 100%;
+  text-align: center; 
+  background-color: black;
+}
+
+.footer-nav li { 
+  display: inline; 
+}
+
+.footer-nav li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1em;
+  padding: 3em;
+}
+
+.footer-nav li a:hover{
+  text-shadow: 2px 1px 6px white;
+}
+
+.copyright {
+  font-size: 10px;
+}
+
+/* CONTACT */
+
+.contact-form {
+  background-color: black;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
