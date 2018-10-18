@@ -73,7 +73,7 @@ h1 {
     position: absolute;
     top: 20rem;
     left: 3rem;
-    color: white
+    color: white;
 }
 
 h2 {
@@ -82,7 +82,7 @@ h2 {
     position: absolute;
     top: 23rem;
     left: 3rem;
-    color: white
+    color: white;
 }
 
 h3 {
@@ -91,7 +91,7 @@ h3 {
     position: absolute;
     top: 26rem;
     left: 3rem;
-    color: white
+    color: white;
 }
 
 #buttons {
@@ -127,6 +127,8 @@ h3 {
 .gallery {
     list-style-type: none;
     padding: 0;
+
+    margin: 0 5rem;
 }
 
 .gallery li {
@@ -143,6 +145,7 @@ h3 {
 .designs {
     list-style-type: none;
     padding: 0;
+    margin: 0 5rem;
 }
 
 .designs li {
@@ -159,6 +162,7 @@ h3 {
   article {
       background-color: black; 
       padding-bottom: 2rem;
+      margin: 0 5rem;
   }
 
   figure img {
@@ -180,6 +184,7 @@ h3 {
     margin-top: -2rem; 
     background-color: black;
     color: white;
+    
 }
 .parent {
     padding-top: 2rem;
@@ -198,8 +203,9 @@ h3 {
 }
 
 form {
-    margin: 3rem 2rem 2rem 2rem;
-    max-width: 50rem;
+    margin: 0;
+    width: auto;
+    padding-left: 3rem;
 }
 
 fieldset {
@@ -247,13 +253,14 @@ input, textarea {
     height: auto;
     margin: 1rem;
     margin-left: 3.5rem;
+    justify-content: center;
 }
 
 .copyright {
     padding: 1rem;
     color: lightgray;
     font-size: 0.6rem;
-    margin: 0;
+    margin: auto;
 }
   
 
